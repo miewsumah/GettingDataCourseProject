@@ -17,6 +17,7 @@ activity_train <- test/y_train.txt       : Training labels.
 
 
 B) 5 Sequences described in the course project's requirement
+
 1.Merges the training and the test sets to create one data set 
 features is created by merging features_train and features_test using rbind() function
 activity is created by merging activity_train and activity_test using rbind() function
