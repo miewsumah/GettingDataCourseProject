@@ -7,12 +7,19 @@ A) Data Preparation
 2.The files in the folder UCI HAR Dataset that are used for the course project and the names assigned to each file is listed:
 
 features_names <- features.txt          : List of all features.
+
 activity_label <- activity_labels.txt   : Links the class labels with their activity name.
+
 subject_test   <- test/subject_test.txt : Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
 features_test  <- test/X_test.txt       : Test set.
+
 activity_test  <- test/y_test.txt       : Test labels.
+
 subject_train  <- test/subject_train.txt : Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
 features_train <- test/X_train.txt       : Training set.
+
 activity_train <- test/y_train.txt       : Training labels.
 
 
