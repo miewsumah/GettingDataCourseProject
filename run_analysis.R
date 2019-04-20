@@ -62,7 +62,7 @@ data2 <- datalabel %>%
   summarise_all(funs(mean))
 write.table(data2, "tidydata.txt", row.name=FALSE)
 
-## see output 
+## see final
 data2
 
 
