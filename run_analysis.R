@@ -1,7 +1,7 @@
 library(data.table)
 library(dplyr)
 
-## download the file into own folder.
+## download the file.
 filename <- "getdata_projectfiles_UCI HAR Dataset.zip"
 
 if (!file.exists(filename)){
@@ -9,7 +9,7 @@ if (!file.exists(filename)){
   download.file(fileURL, filename, method="curl")
 }  
 
-# unzip the file after download
+## unzip the file after download
 if (!file.exists("UCI HAR Dataset")) { 
   unzip(filename) 
 }
